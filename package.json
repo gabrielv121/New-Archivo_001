@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^2.0.4"
   }
 }
