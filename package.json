@@ -12,5 +12,17 @@
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielv121/New-Archivo_001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielv121/New-Archivo_001/issues"
+  },
+  "homepage": "https://github.com/gabrielv121/New-Archivo_001#readme",
+  "description": ""
 }
