@@ -111,16 +111,7 @@
     </div>
     <div id="auth0-container"></div>
 
-    <script>
-      var auth0 = new auth0.WebAuth({
-        domain: 'dev-4x7zwd201vaqn263.us.auth0.com',
-        clientID: 'dJUnclXw63hvhpisRHYfLZXzkhnPuPfN',
-        redirectUri: 'https://master--cheerful-cupcake-3028a7.netlify.app/',
-        responseType: 'token id_token',
-        scope: 'openid'
-      });
-    
-      auth0.authorize();
-    </script> with this code
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
