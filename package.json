@@ -2,7 +2,7 @@
   "name": "weekly-good-elephant",
   "version": "1.0.0",
   "private": true,
-  "main": "dist/index.js",
+  "entry": "src/index.js", 
   "scripts": {
     "start": "parcel src/index.html"
   },
