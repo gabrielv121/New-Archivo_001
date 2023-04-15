@@ -91,7 +91,10 @@ const login = async () => {
     });
   };
   const logout = async () => {
-    await auth0Client.logout({
-      returnTo: window.location.origin
-    });
+    if (auth0Client) {
+      await auth0Client.logout({
+        returnTo: window.location.origin
+      });
+    }
   };
+  
