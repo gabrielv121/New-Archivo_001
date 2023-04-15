@@ -6,7 +6,8 @@
   
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "dev": "nodemon app.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
