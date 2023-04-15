@@ -208,7 +208,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.home-text019 {
+.login-button {
   top: 7px;
   left: 778px;
   color: var(--dl-color-default-raisinblack);
@@ -216,8 +216,7 @@
   height: auto;
   position: absolute;
   font-size: 20px;
-  align-self: auto;
-  font-style: Semi Bold;
+  font-style: semi-bold;
   text-align: left;
   font-family: Inter;
   font-weight: 700;
