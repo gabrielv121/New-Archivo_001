@@ -46,7 +46,10 @@ const logout = async () => {
 /**
  * Retrieves the auth configuration from the server
  */
-const fetchAuthConfig = () => fetch("/auth_config.json");
+ const fetchAuthConfig = async () => {
+  const response = await fetch('/auth_config.json');
+  return await response.json();
+};
 
 /**
  * Initializes the Auth0 client
