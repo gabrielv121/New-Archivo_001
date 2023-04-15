@@ -24,6 +24,8 @@ const login = async (targetUrl) => {
   }
 };
 
+
+
 /**
  * Executes the logout flow
  */
