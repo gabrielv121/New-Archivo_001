@@ -13,7 +13,7 @@ app.get("/auth_config.json", (req, res) => {
 });
 
 app.get("/*", (_, res) => {
-  res.sendFile(join(__dirname, "login.html"));
+  res.sendFile(join(__dirname, "index.html"));
 });
 
 process.on("SIGINT", function() {
