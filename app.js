@@ -43,11 +43,10 @@ const login = async () => {
   }
 
   await auth0Client.loginWithRedirect({
-    authorizationParams: {
-      redirect_uri: window.location.origin
-    }
+    redirect_uri: window.location.origin
   });
 };
+
 
 
 const logout = async () => {
