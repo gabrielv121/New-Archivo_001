@@ -1,5 +1,6 @@
 // The Auth0 client, initialized in configureClient()
 let auth0Client = null;
+import { createAuth0Client } from '@auth0/auth0-spa-js';
 
 /**
  * Starts the authentication flow
