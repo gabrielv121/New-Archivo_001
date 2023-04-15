@@ -47,6 +47,13 @@ window.onload = async () => {
   
   // ..
   
+  document.getElementById("btn-login").addEventListener("click", async () => {
+    await login();
+  });
+  
+  document.getElementById("btn-logout").addEventListener("click", async () => {
+    await logout();
+  });
   
   // ...
 
@@ -88,5 +95,3 @@ const login = async () => {
       returnTo: window.location.origin
     });
   };
-  
-  
