@@ -208,6 +208,14 @@
   margin-bottom: 0;
   text-decoration: none;
 }
+.hidden {
+  display: none;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
 .home-text019 {
   top: 7px;
   left: 778px;
