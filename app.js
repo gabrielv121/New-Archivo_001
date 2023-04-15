@@ -35,12 +35,17 @@ const updateUI = async () => {
 };
 
 const login = async () => {
+  if (!auth0Client) {
+    return;
+  }
+
   await auth0Client.loginWithRedirect({
     authorizationParams: {
       redirect_uri: window.location.origin
     }
   });
 };
+
 
 const logout = async () => {
   if (auth0Client) {
