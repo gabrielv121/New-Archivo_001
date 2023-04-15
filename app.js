@@ -13,7 +13,10 @@ const configureClient = async () => {
 };
 
 const updateUI = async () => {
-  const isAuthenticated = await auth0Client.isAuthenticated();
+  const updateUI = async () => {
+    console.log("updateUI called");
+    const isAuthenticated = await auth0Client.isAuthenticated();
+    console.log("isAuthenticated:", isAuthenticated);
 
   document.getElementById("btn-login").disabled = !isAuthenticated;
   document.getElementById("btn-logout").disabled = isAuthenticated;
@@ -90,4 +93,4 @@ document.getElementById("btn-logout").addEventListener("click", async () => {
   await logout();
 });
 }
-
+}
