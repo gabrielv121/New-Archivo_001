@@ -55,8 +55,8 @@ const logout = async () => {
   }
 };
 
-window.onload = async () => {
-  await configureClient();
+if (typeof window !== "undefined") {
+  window.onload = async () => {
 
   // .. code ommited for brevity
 
@@ -89,3 +89,5 @@ document.getElementById("btn-login").addEventListener("click", async () => {
 document.getElementById("btn-logout").addEventListener("click", async () => {
   await logout();
 });
+}
+
