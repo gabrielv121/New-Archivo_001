@@ -18,7 +18,8 @@ const configureClient = async () => {
 
   // ..
 
-window.onload = async () => {
+  window.onload = async () => {
+    await configureClient();
 
     // .. code ommited for brevity
   
