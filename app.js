@@ -72,29 +72,31 @@ const logout = async () => {
 if (typeof window !== "undefined") {
   window.onload = async () => {
 
-  // .. code ommited for brevity
+    // .. code ommited for brevity
 
-  updateUI();
-
-  const isAuthenticated = await auth0Client.isAuthenticated();
-
-  if (isAuthenticated) {
-    // show the gated content
-    return;
-  }
-
-  // NEW - check for the code and state parameters
-  const query = window.location.search;
-  if (query.includes("code=") && query.includes("state=")) {
-    // Process the login state
-    await auth0Client.handleRedirectCallback();
-
+    await configureClient();
     updateUI();
 
-    // Use replaceState to redirect the user away and remove the querystring parameters
-    window.history.replaceState({}, document.title, "/");
-  }
-};
+    const isAuthenticated = await auth0Client.isAuthenticated();
+
+    if (isAuthenticated) {
+      // show the gated content
+      return;
+    }
+
+    // NEW - check for the code and state parameters
+    const query = window.location.search;
+    if (query.includes("code=") && query.includes("state=")) {
+      // Process the login state
+      await auth0Client.handleRedirectCallback();
+
+      updateUI();
+
+      // Use replaceState to redirect the user away and remove the querystring parameters
+      window.history.replaceState({}, document.title, "/");
+    }
+  };
+
 
 document.getElementById("btn-login").addEventListener("click", async () => {
   await login();
