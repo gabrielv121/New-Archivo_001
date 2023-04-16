@@ -1,11 +1,15 @@
 let auth0Client = null;
 
 const fetchAuthConfig = async () => {
-  const response = await fetch("auth_config.json");
-  const config = await response.json();
-  console.log(config);
-  return config;
+  try {
+    const response = await fetch("auth_config.json");
+    const config = await response.json();
+    return config;
+  } catch (error) {
+    console.error(error);
+  }
 };
+
 
 const configureClient = async () => {
   const response = await fetchAuthConfig();
@@ -97,3 +101,4 @@ document.getElementById("btn-logout").addEventListener("click", async () => {
   await logout();
 });
 }
+
