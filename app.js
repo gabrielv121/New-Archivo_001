@@ -2,7 +2,7 @@ let auth0Client = null;
 
 const fetchAuthConfig = async () => {
   try {
-    const response = await fetch("/auth_config.json");
+    const response = await fetch("config/auth_config.json")
     const config = await response.json();
     return config;
   } catch (error) {
