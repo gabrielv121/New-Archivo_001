@@ -4,7 +4,6 @@ const fetchAuthConfig = async () => {
   try {
     const response = await fetch("./config/auth_config.json")
     const config = await response.json();
-    console.log(config); // Add this line
     return config;
   } catch (error) {
     console.error(error);
