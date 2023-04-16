@@ -5,7 +5,7 @@ const app = express();
 // Serve static assets from the /public folder
 app.use(express.static(join(__dirname, "public")));
 
-app.get("/auth_config.json", (req, res) => {
+app.get("./auth_config.json", (req, res) => {
   res.sendFile(join(__dirname, "auth_config.json"));
 });
 
