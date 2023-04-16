@@ -12,7 +12,7 @@ const configureClient = async () => {
   });
 };
 
-const updateUI = async () => {
+
   const updateUI = async () => {
     console.log("updateUI called");
     const isAuthenticated = await auth0Client.isAuthenticated();
@@ -91,5 +91,4 @@ document.getElementById("btn-login").addEventListener("click", async () => {
 document.getElementById("btn-logout").addEventListener("click", async () => {
   await logout();
 });
-}
 }
