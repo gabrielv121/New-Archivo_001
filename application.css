@@ -1,0 +1,1512 @@
+.application-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.application-webapp {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.application-materialsymbolsperson {
+  top: 632px;
+  left: 1095px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-fluentlinehorizontal320filled {
+  top: 96px;
+  left: 1298px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-bisearch {
+  top: 98px;
+  left: 365px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.application-text {
+  top: 19px;
+  left: 53px;
+  color: var(--dl-color-default-tangblue);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-line1 {
+  top: 45px;
+  left: 855px;
+  width: 240px;
+  height: 0px;
+  position: absolute;
+}
+.application-fluentemojihighcontrasthighvoltage {
+  top: 17px;
+  left: 855px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-text002 {
+  top: 17px;
+  left: 887px;
+  color: rgba(0, 0, 0, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text004 {
+  top: 20px;
+  left: 1027px;
+  color: rgba(0, 0, 0, 1);
+  width: 72px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-ellipse1 {
+  top: 17px;
+  left: 1340px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+}
+.application-iconparkoutlinesettingconfig {
+  top: 25px;
+  left: 1179px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.application-fa6regularbell {
+  top: 25px;
+  left: 1235px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.application-materialsymbolscloud {
+  top: 90px;
+  left: 29px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text006 {
+  top: 97px;
+  left: 57px;
+  color: rgba(0, 0, 0, 1);
+  width: 56px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text008 {
+  top: 97px;
+  left: 123px;
+  color: rgba(0, 0, 0, 1);
+  width: 26px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-ellipse2 {
+  top: 98px;
+  left: 155px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.application-rectangle3 {
+  top: 103px;
+  left: 160px;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 0 0 2px;
+}
+.application-mdidotshorizontal {
+  top: 93px;
+  left: 183px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-mdidotshorizontal1 {
+  top: 96px;
+  left: 1220px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-materialsymbolsadd {
+  top: 93px;
+  left: 207px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-text010 {
+  top: 155px;
+  left: 30px;
+  color: var(--dl-color-default-raisinblack);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text012 {
+  top: 337px;
+  left: 30px;
+  color: var(--dl-color-default-raisinblack);
+  width: 72px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text014 {
+  top: 392px;
+  left: 29px;
+  color: var(--dl-color-default-raisinblack);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text016 {
+  top: 447px;
+  left: 29px;
+  color: var(--dl-color-default-raisinblack);
+  width: 93px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text018 {
+  top: 195px;
+  left: 82px;
+  color: var(--dl-color-default-raisinblack);
+  width: 73px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsfolder {
+  top: 195px;
+  left: 47px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-materialsymbolsfolder01 {
+  top: 577px;
+  left: 437px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-materialsymbolsfolder02 {
+  top: 241px;
+  left: 365px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-materialsymbolsfolder03 {
+  top: 241px;
+  left: 535px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-materialsymbolsfolder04 {
+  top: 241px;
+  left: 705px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-materialsymbolsfolder05 {
+  top: 241px;
+  left: 875px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-materialsymbolskeyboardarrowdownrounded {
+  top: 524px;
+  left: 925px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolsfolder06 {
+  top: 241px;
+  left: 1045px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-materialsymbolsfolder07 {
+  top: 241px;
+  left: 1215px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.application-text020 {
+  top: 229px;
+  left: 82px;
+  color: var(--dl-color-default-raisinblack);
+  width: 118px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsfolder08 {
+  top: 229px;
+  left: 47px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text022 {
+  top: 263px;
+  left: 110px;
+  color: var(--dl-color-default-raisinblack);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsfolder09 {
+  top: 263px;
+  left: 75px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text024 {
+  top: 298px;
+  left: 110px;
+  color: var(--dl-color-default-raisinblack);
+  width: 123px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text026 {
+  top: 872px;
+  left: 42px;
+  color: var(--dl-color-default-frenchgray);
+  width: 123px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text028 {
+  top: 901px;
+  left: 42px;
+  color: var(--dl-color-default-frenchgray);
+  width: 123px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsfolder10 {
+  top: 298px;
+  left: 75px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text030 {
+  top: 98px;
+  left: 390px;
+  color: rgba(0, 0, 0, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-rectangle5 {
+  top: 93px;
+  left: 720px;
+  width: 124px;
+  height: 26px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.application-rectangle6 {
+  top: 93px;
+  left: 860px;
+  width: 124px;
+  height: 26px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.application-text032 {
+  top: 98px;
+  left: 754px;
+  color: rgba(0, 0, 0, 1);
+  width: 55px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text034 {
+  top: 184px;
+  left: 365px;
+  color: rgba(0, 0, 0, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text036 {
+  top: 518px;
+  left: 430px;
+  color: var(--dl-color-default-frenchgray);
+  width: 62px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text038 {
+  top: 518px;
+  left: 953px;
+  color: var(--dl-color-default-frenchgray);
+  width: 55px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text040 {
+  top: 518px;
+  left: 1095px;
+  color: var(--dl-color-default-frenchgray);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text042 {
+  top: 518px;
+  left: 1253px;
+  color: var(--dl-color-default-frenchgray);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text044 {
+  top: 474px;
+  left: 365px;
+  color: rgba(0, 0, 0, 1);
+  width: 212px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text045 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+}
+.application-text047 {
+  top: 580px;
+  left: 474px;
+  color: rgba(0, 0, 0, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text049 {
+  top: 575px;
+  left: 947px;
+  color: rgba(0, 0, 0, 1);
+  width: 49px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text051 {
+  top: 575px;
+  left: 1095px;
+  color: rgba(0, 0, 0, 1);
+  width: 65px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text053 {
+  top: 575px;
+  left: 1253px;
+  color: rgba(0, 0, 0, 1);
+  width: 133px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text055 {
+  top: 632px;
+  left: 1253px;
+  color: rgba(0, 0, 0, 1);
+  width: 133px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text057 {
+  top: 686px;
+  left: 1253px;
+  color: rgba(0, 0, 0, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text059 {
+  top: 740px;
+  left: 1253px;
+  color: rgba(0, 0, 0, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text061 {
+  top: 791px;
+  left: 1253px;
+  color: rgba(0, 0, 0, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text063 {
+  top: 633px;
+  left: 1120px;
+  color: rgba(0, 0, 0, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsperson1 {
+  top: 739px;
+  left: 1095px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-text065 {
+  top: 740px;
+  left: 1120px;
+  color: rgba(0, 0, 0, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsperson2 {
+  top: 790px;
+  left: 1095px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-text067 {
+  top: 791px;
+  left: 1120px;
+  color: rgba(0, 0, 0, 1);
+  width: 74px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text069 {
+  top: 684px;
+  left: 1095px;
+  color: rgba(0, 0, 0, 1);
+  width: 65px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text071 {
+  top: 792px;
+  left: 947px;
+  color: rgba(0, 0, 0, 1);
+  width: 49px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text073 {
+  top: 633px;
+  left: 947px;
+  color: rgba(0, 0, 0, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text075 {
+  top: 738px;
+  left: 947px;
+  color: rgba(0, 0, 0, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text077 {
+  top: 684px;
+  left: 947px;
+  color: rgba(0, 0, 0, 1);
+  width: 38px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsfolder11 {
+  top: 789px;
+  left: 439px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text079 {
+  top: 792px;
+  left: 476px;
+  color: rgba(0, 0, 0, 1);
+  width: 104px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text081 {
+  top: 630px;
+  left: 474px;
+  color: rgba(0, 0, 0, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text083 {
+  top: 972px;
+  left: 42px;
+  color: rgba(0, 0, 0, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text085 {
+  top: 345px;
+  left: 365px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text087 {
+  top: 345px;
+  left: 535px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text089 {
+  top: 345px;
+  left: 705px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text091 {
+  top: 345px;
+  left: 875px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text093 {
+  top: 345px;
+  left: 1045px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text095 {
+  top: 345px;
+  left: 1215px;
+  color: rgba(0, 0, 0, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolsuploadrounded {
+  top: 99px;
+  left: 730px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolskeyboardarrowdownrounded1 {
+  top: 99px;
+  left: 819px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-text097 {
+  top: 97px;
+  left: 897px;
+  color: rgba(0, 0, 0, 1);
+  width: 50px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolskeyboardarrowdownrounded2 {
+  top: 99px;
+  left: 959px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolsadd1 {
+  top: 99px;
+  left: 870px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-rectangle7 {
+  top: 92px;
+  left: 1038px;
+  width: 159px;
+  height: 26px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.application-text099 {
+  top: 96px;
+  left: 1075px;
+  color: rgba(0, 0, 0, 1);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolskeyboardarrowdownrounded3 {
+  top: 99px;
+  left: 1174px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolskeyboardarrowdownrounded4 {
+  top: 99px;
+  left: 1334px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-line2 {
+  top: 95px;
+  left: 1011px;
+  width: 20px;
+  height: 0px;
+  position: absolute;
+}
+.application-materialsymbolsfolder12 {
+  top: 99px;
+  left: 1049px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-line3 {
+  top: 948px;
+  left: 42px;
+  width: 158px;
+  height: 0px;
+  position: absolute;
+}
+.application-mdicopyright {
+  top: 974px;
+  left: 111px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolsfolder13 {
+  top: 981px;
+  left: 284px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text101 {
+  top: 985px;
+  left: 323px;
+  color: rgba(0, 0, 0, 1);
+  width: 278px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-text102 {
+  font-weight: 500;
+}
+.application-text103 {
+  font-weight: 700;
+}
+.application-rectangle9 {
+  top: 979px;
+  left: 639px;
+  width: 106px;
+  height: 31px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.application-text105 {
+  top: 985px;
+  left: 669px;
+  color: var(--dl-color-default-white);
+  width: 46px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-ellipse3 {
+  top: 988px;
+  left: 646px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  border-color: transparent;
+}
+.application-frame1 {
+  top: 989px;
+  left: 648px;
+  width: 11px;
+  height: 12px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.application-text107 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-materialsymbolskeyboardarrowuprounded {
+  top: 988px;
+  left: 719px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolskeyboardarrowuprounded1 {
+  top: 524px;
+  left: 499px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-materialsymbolsuploadrounded1 {
+  top: 985px;
+  left: 1177px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-epconnection {
+  top: 985px;
+  left: 1217px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-streamlineinterfacedeletebin2removedeleteemptybint {
+  top: 988px;
+  left: 1257px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.application-mdidotshorizontal2 {
+  top: 985px;
+  left: 1291px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.application-line4 {
+  top: 560px;
+  left: 365px;
+  width: 1054px;
+  height: 0px;
+  position: absolute;
+}
+.application-line5 {
+  top: 614px;
+  left: 365px;
+  width: 1054px;
+  height: 0px;
+  position: absolute;
+}
+.application-line6 {
+  top: 668px;
+  left: 365px;
+  width: 1054px;
+  height: 0px;
+  position: absolute;
+}
+.application-line7 {
+  top: 722px;
+  left: 369px;
+  width: 1054px;
+  height: 0px;
+  position: absolute;
+}
+.application-line8 {
+  top: 776px;
+  left: 369px;
+  width: 1054px;
+  height: 0px;
+  position: absolute;
+}
+.application-icbaselineinsertdrivefile {
+  top: 627px;
+  left: 437px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text108 {
+  top: 684px;
+  left: 474px;
+  color: rgba(0, 0, 0, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-icbaselineinsertdrivefile1 {
+  top: 681px;
+  left: 437px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.application-text110 {
+  top: 738px;
+  left: 474px;
+  color: rgba(0, 0, 0, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.application-icbaselineinsertdrivefile2 {
+  top: 735px;
+  left: 437px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
