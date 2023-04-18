@@ -22,16 +22,5 @@ addBtn.addEventListener('click', () => {
     .catch(error => {
       console.error('File upload failed:', error);
       // Handle file upload error, e.g., show error message, update UI, etc.
-
-      const fileInput = document.getElementById('file-input'); // Get the file input element
-
-fileInput.addEventListener('change', () => {
-  // Add change event listener to the file input
-
-  const file = fileInput.files[0]; // Get the selected file from the file input
-
-  console.log('Selected file:', file); // Log the file object to the console
-});
-
     });
 });
