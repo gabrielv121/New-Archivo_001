@@ -27,6 +27,24 @@
         background-color: var(--dl-color-gray-white);
 
       }
+      
+
+    
+      .file-item {
+      margin: 10px;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      }
+
+       .file-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+
+
+
     </style>
     <link
       rel="stylesheet"
@@ -215,7 +233,9 @@
           />
           <span class="application-text032"><span>Upload</span></span>
           <span class="application-text034"><span>Recent files</span></span>
-          <div id="file-container"></div>
+          <div id="file-container" class="file-container">
+            <!-- Files will be dynamically appended here -->
+          </div>
 
           <span class="application-text036"><span>Name</span></span>
           <span class="application-text038"><span>Type</span></span>
