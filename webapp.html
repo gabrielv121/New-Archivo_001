@@ -235,11 +235,11 @@
           <span class="application-text034"><span>Recent files</span></span>
           
 
-          <!-- Add a container element with id "file-container" to display the selected file -->
-          <div id="file-container"></div>
-          <!-- Example HTML element to display the selected file information -->
-          <p id="file-info"></p>
-
+          <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Upload">
+          </form>
+          <p id="response"></p>
 
 
           <span class="application-text036"><span>Name</span></span>

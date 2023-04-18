@@ -1,6 +1,9 @@
 const express = require('express');
 const multer = require('multer');
+const cors = require('cors'); // Import cors middleware
 const app = express();
+
+app.use(cors()); // Enable cors for all routes
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
       // Set the destination folder for storing uploaded files
