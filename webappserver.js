@@ -3,6 +3,25 @@ const axios = require('axios'); // Import Axios library
 
 const fileInput = document.getElementById('file-input'); // Get the file input element
 const addBtn = document.getElementById('add-button'); // Get the add button element
+const fileContainer = document.getElementById('file-container'); // Get the file container element
+const previewImg = document.getElementById('preview-img'); // Get the img element for preview
+
+// Add change event listener to the file input for image preview
+fileInput.addEventListener('change', (event) => {
+  const file = event.target.files[0]; // Get the selected file from the file input
+
+  // Create a FileReader object to read the file
+  const reader = new FileReader();
+
+  // Set onload event listener to the FileReader to handle successful file read
+  reader.onload = (e) => {
+    // Set the src attribute of the img element to the data URL of the read file
+    previewImg.src = e.target.result;
+  };
+
+  // Read the file as Data URL
+  reader.readAsDataURL(file);
+});
 
 addBtn.addEventListener('click', () => {
   // Add click event listener to the add button
@@ -23,9 +42,6 @@ addBtn.addEventListener('click', () => {
       // For simplicity, let's assume the response is an array of file objects with 'url' property
       const filesArray = response.data.files; // Update the filesArray with server response
 
-      // Get the container element
-      const fileContainer = document.getElementById('file-container');
-
       // Clear the container element
       fileContainer.innerHTML = '';
 
@@ -36,7 +52,7 @@ addBtn.addEventListener('click', () => {
         if (file.type.startsWith('image/')) {
           // If the file is an image, create an <img> element
           fileElement = document.createElement('img');
-          fileElement.src = file.url; // Set the src attribute to the URL of the uploaded image
+          fileElement.src = file.url;
           fileElement.alt = file.name;
         } else if (file.type.startsWith('audio/')) {
           // If the file is an audio file, create an <audio> element
