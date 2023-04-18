@@ -1,4 +1,4 @@
-// Frontend code to handle file upload
+//// Frontend code to handle file upload
 const axios = require('axios'); // Import Axios library
 
 const fileInput = document.getElementById('file-input'); // Get the file input element
@@ -72,7 +72,7 @@ addBtn.addEventListener('click', () => {
           fileElement.textContent = 'Download ' + file.name;
         }
 
-        // Append the file element to the container
+        // Append the file element to the file container
         fileContainer.appendChild(fileElement);
       }
     })
