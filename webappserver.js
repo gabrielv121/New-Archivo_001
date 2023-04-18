@@ -28,6 +28,13 @@ addBtn.addEventListener('click', () => {
 // Assuming you have an event listener for file upload success
 // and the server response contains the URL or path of the uploaded file(s)
 // For simplicity, let's assume the response is an array of file objects with 'url' property
+const filesArray = [
+    {
+      name: 'app-mb.webp',
+      type: 'image/webp',
+      url: 'https://example.com/app-mb.webp'
+    }
+  ];
 
 // Get the container element
 const fileContainer = document.getElementById('file-container');
