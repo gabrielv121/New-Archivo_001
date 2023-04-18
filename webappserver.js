@@ -1,4 +1,3 @@
-//// Frontend code to handle file upload
 const axios = require('axios'); // Import Axios library
 
 const fileInput = document.getElementById('file-input'); // Get the file input element
