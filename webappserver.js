@@ -5,7 +5,6 @@ const fileInput = document.getElementById('file-input'); // Get the file input e
 const addBtn = document.getElementById('add-button'); // Get the add button element
 const fileContainer = document.getElementById('file-container'); // Get the file container element
 const previewImg = document.getElementById('preview-img'); // Get the img element for preview
-const fileInfo = document.getElementById('file-info'); // Get the file info element
 
 // Add change event listener to the file input for image preview
 fileInput.addEventListener('change', (event) => {
@@ -22,14 +21,6 @@ fileInput.addEventListener('change', (event) => {
 
   // Read the file as Data URL
   reader.readAsDataURL(file);
-
-  // Set the inner text of the file info element with the selected file information
-  fileInfo.innerText = `Selected file: 
-    Name: ${file.name}
-    Type: ${file.type}
-    Size: ${file.size} bytes
-    Last modified: ${file.lastModifiedDate}
-  `;
 });
 
 addBtn.addEventListener('click', () => {
