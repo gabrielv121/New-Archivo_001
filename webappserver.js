@@ -36,7 +36,7 @@ addBtn.addEventListener('click', () => {
         if (file.type.startsWith('image/')) {
           // If the file is an image, create an <img> element
           fileElement = document.createElement('img');
-          fileElement.src = file.url;
+          fileElement.src = file.url; // Set the src attribute to the URL of the uploaded image
           fileElement.alt = file.name;
         } else if (file.type.startsWith('audio/')) {
           // If the file is an audio file, create an <audio> element
