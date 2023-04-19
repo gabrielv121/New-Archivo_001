@@ -1,5 +1,7 @@
-document.getElementById('uploadForm').addEventListener('submit', async (event) => {
-    event.preventDefault(); // Prevent form submission
+document.getElementById('add-button').addEventListener('click', () => {
+    // Trigger click event on hidden file input element
+    document.getElementById('fileInput').click();
+  });
   
     const fileInput = document.getElementsByName('file')[0];
     const file = fileInput.files[0];
@@ -18,5 +20,4 @@ document.getElementById('uploadForm').addEventListener('submit', async (event) =
     } catch (error) {
       console.error('Error uploading file:', error);
     }
-  });
   
