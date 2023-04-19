@@ -22,7 +22,7 @@ const storage = multer.diskStorage({
     // Generate file URL based on server's domain and file's location on the server
     const fileUrl = `${req.protocol}://${req.get('host')}/${req.file.path}`;
     
-    // Send the file URL as a respons
+    // Send the file URL as a response
     res.json({ fileUrl });
   });
   
