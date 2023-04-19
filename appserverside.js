@@ -18,7 +18,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-app.post('/upload', upload.single('file'), (req, res) => {
+app.post('./upload', upload.single('file'), (req, res) => {
   // File is uploaded and stored at req.file
   // Generate file URL based on server's domain and file's location on the server
   const fileUrl = `${req.protocol}://${req.get('host')}/${req.file.path}`;
