@@ -8,7 +8,7 @@ app.use(cors()); // Enable cors for all routes
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     // Set the destination folder for storing uploaded files
-    cb(null, './upload/');
+    cb(null, '/upload/');
   },
   filename: (req, file, cb) => {
     // Set the filename of the uploaded file
@@ -18,7 +18,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-app.post('./upload', upload.single('file'), (req, res) => {
+app.post('/upload', upload.single('file'), (req, res) => {
   // File is uploaded and stored at req.file
   // Generate file URL based on server's domain and file's location on the server
   const fileUrl = `${req.protocol}://${req.get('host')}/${req.file.path}`;
