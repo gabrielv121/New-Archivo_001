@@ -1,32 +1,35 @@
+// Trigger click event on hidden file input element or any other way to open file picker dialog
 document.getElementById('add-button').addEventListener('click', () => {
-  // Trigger click event on hidden file input element
-  document.getElementById('fileInput').click();
+  // Trigger file picker dialog
+  const fileInput = document.createElement('input');
+  fileInput.type = 'file';
+  fileInput.style.display = 'none';
+  document.body.appendChild(fileInput);
+  fileInput.click();
+  document.body.removeChild(fileInput);
 });
 
-document.getElementById('fileInput').addEventListener('change', async (event) => {
+// Handle file selection event
+document.addEventListener('change', async (event) => {
   const fileInput = event.target;
-  const file = fileInput.files[0];
+  if (fileInput && fileInput.type === 'file') {
+    const file = fileInput.files[0];
+    if (file) {
+      const formData = new FormData();
+      formData.append('file', file);
 
-  const formData = new FormData();
-  formData.append('file', file);
-
-  try {
-    const response = await fetch('http://localhost:3000/upload', {
-      method: 'POST',
-      body: formData
-    });
-
-    if (response.ok) {
-      const data = await response.json();
-      if (data.fileUrl) {
+      try {
+        const response = await fetch('http://localhost:3000/upload', {
+          method: 'POST',
+          body: formData
+        });
+        // Process the response
+        const data = await response.json();
         document.getElementById('response').textContent = `File URL: ${data.fileUrl}`;
-      } else {
-        throw new Error('File URL not found in response');
+      } catch (error) {
+        // Handle any errors
+        console.error('Error uploading file:', error);
       }
-    } else {
-      throw new Error(`Failed to upload file: ${response.status} ${response.statusText}`);
     }
-  } catch (error) {
-    console.error('Error uploading file:', error);
   }
 });
