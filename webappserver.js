@@ -32,7 +32,7 @@ addBtn.addEventListener('click', () => {
   formData.append('file', file);
 
   // Make POST request to the /upload endpoint with the FormData
-  axios.post('/upload', formData)
+  axios.post('./upload', formData)
     .then(response => {
       console.log('File uploaded successfully:', response.data);
       // Handle successful file upload, e.g., show success message, update UI, etc.
